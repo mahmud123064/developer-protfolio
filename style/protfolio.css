@@ -126,7 +126,7 @@ nav li{
 
 .about-info-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around ;
 }
 
 .info-title{
@@ -134,6 +134,17 @@ nav li{
     font-size: 20px;
     line-height: 30px;
 }
-.info-description{
 
+/* What i do */
+.section-description1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+.what-i-do{
+    padding: 0 130px;
 }
