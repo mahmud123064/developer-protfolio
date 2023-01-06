@@ -3,17 +3,17 @@
 }
 
 /* Header and nav section */
-.header{
-    background-color:#FFF8F3;
+.header {
+    background-color: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right,left;
-   
- 
+    background-position: bottom right, left;
+
+
 }
 
-.primary-button{
-    background-color:#FD6E0A; 
+.primary-button {
+    background-color: #FD6E0A;
     color: white;
     height: 50px;
     width: 150px;
@@ -24,60 +24,65 @@
     padding: 15px 25px;
     text-align: center;
 
- }
- 
- .primary-text {
-     color: #FD6E0A;
-     
- }
+}
+
+.primary-text {
+    color: #FD6E0A;
+
+}
 
 .nav-title {
     font-weight: 800;
     font-size: 45px;
     /* margin-top: -8px; */
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
-    margin:40px 200px;
+    margin: 40px 200px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
 }
 
-nav li{
+nav li {
     list-style: none;
     margin-left: 50px;
 }
 
 /* Banner section */
 
-.banner{
+.banner {
     margin: 0 200px;
     display: flex;
     align-items: center;
 }
-.banner-title{
+
+.banner-title {
 
     font-weight: 700;
     font-size: 50px;
 }
-.banner-subtitle{
-    color: #474747; 
+
+.banner-subtitle {
+    color: #474747;
     width: 177px;
     font-weight: 600;
     font-size: 30px;
     margin-bottom: -30px;
 }
-.banner-text{
+
+.banner-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
     color: #757575;
     margin-bottom: 10px;
 }
+
 /* .primary-button1{
     background-color:#FD6E0A; 
     color: white;
@@ -92,33 +97,35 @@ nav li{
 
  } */
 
- /* Main section */
-    main{
-        max-width: 1140px;
-        margin: 0 auto;
-    }
+/* Main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
-    section{
-        margin-top: 130px;
-    }
- /* About Section */
+section {
+    margin-top: 130px;
+}
 
- .about{
+/* About Section */
+
+.about {
     margin-top: -50px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
 }
 
-.section-title{
+.section-title {
     text-align: center;
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 35px;
     line-height: 48px;
 }
-.section-desciption{
-    color:  #757575;
+
+.section-desciption {
+    color: #757575;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -126,20 +133,20 @@ nav li{
     margin-bottom: 30px;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
-    justify-content: space-around ;
+    justify-content: space-around;
     margin-bottom: 30px;
 }
 
-.info-title{
+.info-title {
     color: #757575;
     font-size: 20px;
     line-height: 30px;
 }
 
 /* What i do */
-.section-description{
+.section-description {
     text-align: center;
     font-weight: 400;
     font-size: 18px;
@@ -148,16 +155,17 @@ nav li{
     color: #757575;
 }
 
-.what-i-do{
+.what-i-do {
     padding: 0 130px;
 }
-.skills-container{
-    display: flex; 
-    gap: 24px;   
+
+.skills-container {
+    display: flex;
+    gap: 24px;
     margin-top: 30px;
 }
 
-.skill-title{
+.skill-title {
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 20px;
@@ -166,7 +174,7 @@ nav li{
 /* .skill-description{
    
 } */
-.skill{
+.skill {
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
@@ -174,5 +182,94 @@ nav li{
     padding: 20px;
 }
 
-/* A resume of summary */
+/* resume  sectiom */
 
+.resume-content {
+    display: flex;
+}
+
+.resume .title {
+
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+}
+
+
+.resume .sub-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+}
+
+
+.resume .description {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+.resume-title{
+    margin-top: 9px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 34px;
+    color: #474747;
+}
+
+.resume-title1{
+    margin-top: 9px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 34px;
+    color: #474747;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+.horizental2{
+    width: 550px;
+}
+
+.primary-button1{
+  
+    background-color: #FD6E0A;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20;
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    margin-left: 490px;
+    margin-top: 0px;
+}
+
+/* footer */
+.footer{
+    margin-top: -50px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.footer-content{
+    display: flex;
+}
+
+#name{
+    width: 73%;
+    margin-bottom: 15px;
+}
+#email{
+    width: 73%;
+    margin-bottom: 15px;
+}
+#message{
+    margin-bottom: 15px;
+}
+}
